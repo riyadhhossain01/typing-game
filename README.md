@@ -1,6 +1,6 @@
 # typing-game
 tpying game with timer
-# Just type this, Akira's version
+# Just type this, 
 This is to implement a simple game, my version of "Just type this!" game. Computer will generate a random string and you need to reproduce it within a certain interval. You will lose points significantly if you fail to produce the same string within the set interval.
 
 You have 1000 points in the beginning of the game.  Starting with 5 randomly generated letters being mixed with lower and upper cases, you need to type them correctly within 5000 msec. If you succeed in three consecutive rounds, no matter you made them within the interval or not, you will proceed for the harder round of one more letter (6 letters) within 250 msec shorter duration (4750 msec). You will get 100 points every time you produce the matching string within the interval. No point will be given if exceeding the time interval, even reproducing the right string. The challenge becomes increasingly difficult after the successful match of three rounds (within the interval or not), e.g., 9 letters to type within 4000 msec.
